@@ -1,0 +1,206 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/style.css">
+  <title>Assignment 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/amethysta:n4:default;alice:n4:default.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<div class="container">
+  <h2>San Francisco Controller's Office <img src="img/CaliFlag.png" alt="California Flag" width = "95" height="70"></h2>
+  <p>The San Francisco Controller Office has the following data available for users to analyze and use.</p>
+
+<ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li><a data-toggle="tab" href="#menu1">Running Balance Board</a></li>
+    <li><a data-toggle="tab" href="#menu2">Department</a></li>
+    <li><a data-toggle="tab" href="#menu3">Supplier</a></li>
+    <li><a data-toggle="tab" href="#menu4">About Us</a></li>
+  </ul>
+
+  <div class="tab-content">
+    
+
+
+<div id="home" class="tab-pane fade in active">
+  <h3>Home</h3>
+<p>The San Francisco Controller's Office maintains a database of contracts and payments made to Suppliers (vendors, contractors and grantees). The Supplier Contracts include all fully executed, expenditure-only contracts, including City contracts for commodities, professional and general services, and construction from fiscal year 2018 forward.
+Data: This data set includes both departmental and citywide contracts. One department can have many than one contract, one supplier can have more than on contract, one contract has at least one department and one supplier. Our application is to dynamically display the running balance of each contract.
+</p>
+    <img src="img/SanFran.png" alt="SanFran" height="300" width="300" class= "center"></div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Running Balance Board&nbsp;</h3>
+      <p>Running balance board shows the contract amount that was awarded to each supplier and how much payment has already been made and how much is remaining.
+	<table style="width:100%">
+  <tr>
+    <th>DeptID</th>
+    <th>Department Name</th>
+    <th>SupplierID</th>
+    <th>Contract Address</th>
+    <th>Payment Name</th>
+    <th>Balance</th>
+  </tr>
+  <tr>
+    <td>PUC</td>
+    <td>APX INC</td>
+    <td>MGS</td>
+    <td>58 Middle Point Rd</td>
+    <td>Cobain</td>
+    <td>$176,000</td>
+  </tr>
+  <tr>
+    <td>PUC</td>
+    <td>NORTHPOINTE SOFTWARE INC.</td>
+    <td>P5</td>
+    <td>42 East Shelby</td>
+    <td>Harrison</td>
+    <td>$176,000</td>
+  </tr>
+<tr>
+    <td>PUC</td>
+    <td>THOMSON REUTERS</td>
+    <td>GOW</td>
+    <td>1845 25th St</td>
+    <td>Eastwood</td>
+    <td>$752,488</td>
+  </tr>
+<tr>
+    <td>CAT</td>
+    <td>ASIAN ART MUSEUM FOUNDATION</td>
+    <td>SOP</td>
+    <td>212 Rey St</td>
+    <td>Lennon</td>
+    <td>$825,336</td>
+  </tr>
+</table>
+</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Departments</h3>
+      <p>The department audits and produces regular reports on the City's financial and economic condition and the operations and performance of City government. This page gives the information on department codes and their names.
+	<table style="width:100%">
+  <tr>
+    <th>DeptID</th>
+    <th>Department Name</th>
+    
+  </tr>
+  <tr>
+    <td>PUC</td>
+    <td>PUC Public Utilities Commsn</td>
+    
+  </tr>
+  <tr>
+    <td>AAM</td>
+    <td>AAM Asian Art Museum</td>
+  </tr>
+<tr>
+    <td>ADP</td>
+    <td>ADP Adult Probation</td>
+  </tr>
+<tr>
+    <td>CAT</td>
+    <td>CAT City Attorney</td>
+  </tr>
+</table>
+</p>
+    </div>
+
+
+
+    <div id="menu3" class="tab-pane fade">
+      <h3>Supplier Contracts</h3>
+      <p> Supplier are awarded contract amount based on terms. This page shows the information Suppliers like supplier types, contract number, start and end of the term.
+
+
+<table style="width:100%">
+  <tr>
+    <th>SupplierID</th>
+    <th>Supplier Name</th>
+    <th>Supplier Type</th>
+    <th>Non-Profit</th>
+  </tr>
+  <tr>
+    <td>MGS</td>
+    <td>A P X INC</td>
+    <td>Prime Contractor</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>SOP</td>
+    <td>ASIAN ART MUSEUM FOUNDATION</td>
+    <td>Prime Contractor</td>
+    <td>Yes</td>
+  </tr>
+<tr>
+    <td>FF</td>
+    <td>NORTHPOINTE SOFTWARE INC.</td>
+    <td>Prime Contractor</td>
+    <td>Yes</td>
+  </tr>
+<tr>
+    <td>DSR</td>
+    <td>THOMSON REUTERS</td>
+    <td>Prime Contractor</td>
+    <td>No</td>
+  </tr>
+</table>
+</p>
+    </div>
+
+  
+
+  <div id="menu4" class="tab-pane fade">
+      <h1>About Us</h1>
+	<p>
+  <p>We are a group of aspiring graduate students at the University of South Florida.</p>
+  <p>For this project we used the data available in <a href="https://catalog.data.gov/dataset/supplier-contracts/">DATA.GOV</a> called Supplier Contracts from the City of San Franciso, California using it as an API Endpoint.</p>
+
+<h2 style="text-align:center">Group 1</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="img/Claudio.jpg" alt="Claudio" height="250" width="250">
+      <div class="container">
+        <h2>Claudio Moncada</h2>
+        <p class="title">Team Member</p>
+        <p>Designed the webpage using HTML,CSS and Javascript. Worked on the website's user interface's design and feel.</p>
+        <p>cmoncada@usf.edu</p>
+      </div>
+    </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/Sandeep.jpg" alt="Sandeep" height="300" width="250">
+      <div class="container">
+        <h2>Sandeep Kumar</h2>
+        <p class="title">Team Member</p>
+        <p>Searched the data and worked on running balance board, departments and suppliers page.</p>
+        <p>sandeep8@usf.edu</p>
+      </div>
+    </div>
+
+  <h2>
+        GitHub:
+        <a href="https://github.com/CMoncada99/Group1LookandFeelAssignment3" style="margin-left:25px"> Group1</a>
+    </h2>
+
+<h2>Data Model</h2>
+<img src="img/DataModel.png" alt="DataModel" height="500" width="1250">
+      <p>
+    
+  </div>
+</div>
+
+</body>
+</html>

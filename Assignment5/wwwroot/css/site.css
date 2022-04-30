@@ -1,0 +1,68 @@
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+body {
+    background-color: #DAA520;
+    color: #F3F3F3;
+    background-image: -webkit-linear-gradient(270deg,rgba(218,165,32,1.00) 0%,rgba(218,165,32,1.00) 100%,rgba(255,0,0,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(218,165,32,1.00) 0%,rgba(218,165,32,1.00) 100%,rgba(255,0,0,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(218,165,32,1.00) 0%,rgba(218,165,32,1.00) 100%,rgba(255,0,0,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(218,165,32,1.00) 0%,rgba(218,165,32,1.00) 100%,rgba(255,0,0,1.00) 100%);
+}
+
+#home {
+    color: #FFFFFF;
+    font-family: amethysta;
+    font-style: normal;
+    font-weight: 400;
+    text-shadow: 0px 0px #D30003;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-family: amethysta;
+    font-style: normal;
+    font-weight: 400;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: amethysta;
+    font-style: normal;
+    font-weight: 400;
+    border-width: medium;
+}
+
+.container {
+    background-color: #DAA520;
+    color: #FFFFFF;
+    font-family: amethysta;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.nav-tabs {
+    background: #ADFF2F;
+    font-family: amethysta;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.a {
+    background: #DCDCDC;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
